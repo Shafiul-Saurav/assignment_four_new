@@ -1,0 +1,421 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	background-color: #121B2A;
+}
+
+.wrapper {
+	overflow: hidden;
+	width:80%;
+	margin: 0 auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding: 10px 0 0 0;
+}
+.logo img{
+	width: 100%;
+}
+
+
+.manu {
+	width: 70%;
+	float: right;
+	margin-top: 45px;
+}
+.manu ul{
+	float:right;
+	list-style-type: none;
+}
+.manu ul li{	
+    float:left;
+    
+}
+.manu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	padding: 0px 20px;
+	transition: 1s;
+}
+.manu ul li a:hover{
+	color: #0078BD;
+}
+.manu ul li:last-child a{
+	padding-right:0px;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+	background-image: url(../images/bgimage.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+
+.b_content {
+	width: 50%;
+	margin-top: 230px;
+	margin-bottom: 70px;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0;
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #0076B9;
+	margin: 0;
+}
+.b_content p{
+	font-family:sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 30px;
+	margin: 5px 0 20px 0;
+}
+
+.b_content button{
+	font-family:sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #696969;
+	background-color: #ffffff;
+	padding: 15px 30px;
+	border-radius: 5px;
+}
+.b_content button:focus{
+	outline: none;
+}
+.b_content button:hover{
+	color: #0178BE;
+}
+
+
+.icon{
+    color: #0178BE;
+    padding-left: 20px;
+}
+/*banner end*/
+
+/*service start*/
+.service {
+    background-color: #121B2C;
+    overflow: hidden;
+    padding-bottom: 70px;
+}
+
+.col1 {
+	float:left;
+	width: 29%;
+	margin-top: 80px;
+	padding-right: 33px;
+	border-right: 2px solid #16202D;
+}
+
+.content {
+	overflow: hidden;
+}
+.content img{
+	float: left;
+	width: 80px;
+	margin-right: 10px;
+
+}
+.content h2{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #0178BE;
+}
+.col2 {
+	float:left;
+	width: 29%;
+	margin-top: 80px;
+	padding-right: 33px;
+	margin-left: 33px;
+	border-right: 2px solid #16202D;
+}
+.col3 {
+	float:right;
+	width: 29%;
+	margin-top: 80px;
+	margin-left: 33px;
+}
+.content2 {
+	overflow: hidden;
+}
+.content2 img{
+	float: left;
+	width: 80px;
+	margin-right: 10px;
+
+}
+.content2 h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #0178BE;
+    margin-top: 50px;
+}
+.span{
+	font-weight: 300;
+	color: #ffffff;
+}
+.text {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 25px;
+	text-align: justify;
+}
+/*service end*/
+
+/*contact start*/
+.contact {
+	background-color: #040811;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.col4 {
+	float:left;
+	width: 30%;
+	margin-top: 80px;
+}
+.info {
+}
+.info h2{
+	font-family: sans-serif;
+	font-weight: 400;
+    color: #ffffff;
+}
+.info p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 22px;
+}
+.info a{
+	font-family:sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 1s;
+}
+.info a:hover{
+	color: #0178BE;
+}
+.span1{
+   color: #0178BE;
+}
+.col5 {
+	float:left;
+	width: 30%;
+	margin-top: 65px;
+}
+.testimonials {
+	
+	padding: 15px;
+}
+.testimonials h2{
+	font-family: sans-serif;
+	font-weight: 400;
+    color: #ffffff;
+}
+.testimonials p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 22px;
+}
+#talkbubble {
+     width: 90%;
+     height: 180px;
+     background-color: #0C1019;
+     position: relative;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+     border-radius: 10px;
+}
+#talkbubble:before {
+     content: "";
+     position: absolute;
+     right: 12%;
+     top: 210px;
+     width: 0;
+     height: 0;
+     border-left: 0px solid transparent;
+     border-right: 58px solid transparent;
+     border-top: 28px solid #0C1019;
+}
+
+.rhoda {
+	padding-left: 15px;
+}
+.rhoda h4 {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.rhoda a{
+	font-family:sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	transition: 1s;
+}
+.rhoda a:hover{
+	color: #0178BE;
+}
+.col6 {
+	float:right;
+	width: 37%;
+	margin-top: 80px;
+}
+.logo1 {
+    float: left;
+    margin-left: 30px;
+}
+.logo1 img{
+	width: 100%;
+}
+.app {
+	float: left;
+    margin-left: 25px;
+}
+.app h2{
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	margin: 0;
+	margin-bottom: 5px;
+}
+.app h3{
+	font-family: sans-serif;
+    color: #0178BE;
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.iphone {
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0;
+    transition: 1s;
+}
+.iphone:hover{
+	background-color: #0178BE;
+	color: #ffffff;
+}
+.iphone:focus{
+	outline: none;
+}
+.font{
+	float:left;
+}
+.font i{
+	margin: 10px 0;
+	font-size: 40px;
+}
+.text1{
+	float: left;
+}
+.text1 p {
+    margin: 0px;
+    margin: 5px 0 0 0;
+}
+.text1 h4 {
+    margin: 0px;
+    font-size: 35px;
+    margin: 0 0px 5px 10px;
+}
+/*contact end*/
+
+/*footer start*/
+footer{
+	background-color: #121B2C;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.oscen{
+	width: 60%;
+	float:left;
+}
+.manu1 {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.manu1 ul{
+	float:left;
+	list-style-type: none;
+	padding: 0;
+}
+.manu1 ul li{	
+    float:left;
+    
+}
+.manu1 ul li a{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	padding: 0px 20px;
+	border-right: 1px solid #ffffff;
+	transition: 1s;
+}
+.manu1 ul li a:hover{
+	color: #0078BD;
+}
+.manu1 ul li:first-child a{
+	padding-left: 0px;
+}
+.manu1 ul li:last-child a{
+	border-right: 0px solid #ffffff;
+}
+.profile{
+	width:60%;
+}
+.profile p{
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 14px;
+}
+.profile p a{
+	font-family: sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	transition: 1s;
+}
+
+.profile p a:hover{
+    color: #0078BD;
+}
+
+.logo2 {
+    width: 40%;
+    float: right;
+    padding: 10px 0 0 0;
+}
+.logo2 img{
+	width: 100%;
+}
+
+
+/*footer end*/
